@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About Us - Tailwind CSS</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-extrabold">Brand</h1>
+        <button class="md:hidden text-2xl" id="menu-btn">&#9776;</button>
+        <ul class="hidden md:flex space-x-6" id="menu">
+            <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+            <li><a href="about.html" class="hover:text-blue-500">About</a></li>
+            <li><a href="#" class="hover:text-blue-500">Services</a></li>
+            <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md">Get Started</button>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative h-[50vh] flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?team,corporate');">
+        <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+            <h1 class="text-4xl font-extrabold text-white">About Us</h1>
+            <p class="text-gray-200 mt-2">Learn more about our journey and values.</p>
+        </div>
+    </div>
+
+    <!-- Company Mission -->
+    <div class="p-10 text-center">
+        <h2 class="text-3xl font-bold">Our Mission</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+            We strive to provide high-quality services that meet customer needs with innovation and dedication. Our goal is to create a lasting impact by delivering outstanding solutions.
+        </p>
+    </div>
+
+    <!-- Team Section -->
+    <div class="bg-blue-100 p-10 text-center">
+        <h2 class="text-3xl font-bold">Meet Our Team</h2>
+        <div class="flex flex-wrap justify-center mt-6 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-md w-full sm:w-1/4">
+                <img src="https://source.unsplash.com/150x150/?person" class="rounded-full mx-auto mb-3">
+                <h3 class="font-bold text-lg">John Doe</h3>
+                <p class="text-gray-600">CEO & Founder</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-md w-full sm:w-1/4">
+                <img src="https://source.unsplash.com/150x150/?man" class="rounded-full mx-auto mb-3">
+                <h3 class="font-bold text-lg">Jane Smith</h3>
+                <p class="text-gray-600">CTO</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-md w-full sm:w-1/4">
+                <img src="https://source.unsplash.com/150x150/?woman" class="rounded-full mx-auto mb-3">
+                <h3 class="font-bold text-lg">Michael Brown</h3>
+                <p class="text-gray-600">Lead Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact CTA -->
+    <div class="p-10 text-center">
+        <h2 class="text-3xl font-bold">Get in Touch</h2>
+        <p class="text-gray-600 max-w-xl mx-auto mt-4">
+            Have questions? We're here to help. Reach out to us anytime.
+        </p>
+        <button class="bg-blue-500 text-white px-6 py-2 mt-4 rounded-md hover:bg-blue-600">Contact Us</button>
+    </div>
+
+</body>
+</html>
